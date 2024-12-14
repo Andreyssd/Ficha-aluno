@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha do Aluno</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 20px auto;
+            background: #ffffff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #0077b6;
+            color: #ffffff;
+            text-align: left;
+            padding: 15px;
+        }
+        .header h1 {
+            font-size: 1.8rem;
+        }
+        .info {
+            padding: 15px;
+            color: #333333;
+        }
+        .info p {
+            margin: 8px 0;
+        }
+        .status {
+            color: #0077b6;
+            font-weight: bold;
+        }
+        .blue-box {
+            background-color: #0077b6;
+            color: #ffffff;
+            padding: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .data {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+        .data div {
+            width: 50%;
+            margin-bottom: 10px;
+        }
+        .data div strong {
+            display: block;
+            font-size: 0.9rem;
+            color: #0077b6;
+        }
+        .footer {
+            background-color: #f4f4f9;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        .validity {
+            text-align: right;
+            font-size: 0.9rem;
+            color: #666;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <div class="header">
+            <h1>Sumaré Centro Universitário</h1>
+            <p>ANDREY SANTONI DOS SANTOS</p>
+            <p>R.A: 2381913 &nbsp;&nbsp; CPF: 37864985807</p>
+        </div>
+
+        <!-- Status -->
+        <div class="info">
+            <p><span class="status">STATUS: ATIVO</span></p>
+        </div>
+        
+        <!-- Validade -->
+        <div class="validity">
+            <p>Válido até: <strong>31/12/2024</strong></p>
+        </div>
+
+        <!-- Ficha do Aluno -->
+        <div class="blue-box">Ficha do Aluno</div>
+        <div class="data">
+            <div>
+                <strong>Curso:</strong>
+                <p>Biomedicina</p>
+            </div>
+            <div>
+                <strong>Unidade:</strong>
+                <p>Sumaré</p>
+            </div>
+            <div>
+                <strong>Turno:</strong>
+                <p>Horário de Ensino a Distância</p>
+            </div>
+            <div>
+                <strong>Série Atual:</strong>
+                <p>1</p>
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="info">
+            <p><strong>Portaria:</strong></p>
+            <p><i>Autorizado pela Resolução 11/2019, publicada em 12/09/2019.</i></p>
+        </div>
+        <div class="footer">
+            Centro Universitário Sumaré - Todos os direitos reservados.
+        </div>
+    </div>
+</body>
+</html>
